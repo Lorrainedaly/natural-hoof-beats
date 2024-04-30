@@ -1,0 +1,36 @@
+/* General Styles */
+body {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(9, 9, 9);
+    background: url("../images/galloping-horses2.jpg") center/cover, center;
+}
+
+/* Header */
+header {
+    display: block;
+    width: 100%;
+    align-items: baseline;
+    background-color: rgb(244, 244, 244);
+    opacity: calc(0.6);
+    ;
+}
+
+
+/* Footer */
+#social-media {
+    text-align: center;
+    padding: 45px o;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    background-color: rgb(244, 244, 244);
+    opacity: calc(0.6);
+}
+
+#social-media i {
+    font-size: 200%;
+    padding: 11%;
+    color: rgb(21, 128, 236);
+}
