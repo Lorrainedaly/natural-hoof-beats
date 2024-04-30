@@ -3,8 +3,8 @@ body {
     display:flex;
     flex-direction: column;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(9, 9, 9);
-    background: url("../images/galloping-horses2.jpg") center/cover, center;
+    color: rgb(14, 13, 13);
+    background: url("../images/galloping-horses2.jpg") center/cover, center, no-repeat;
 }
 
 /* Header */
@@ -13,10 +13,17 @@ header {
     width: 100%;
     align-items: baseline;
     background-color: rgb(244, 244, 244);
-    opacity: calc(0.6);
-    ;
+    opacity: calc(0.7);
+    box-shadow: 10px 10px 10px 10px;
+    border-radius:10px ;
 }
 
+/* Main */
+Main {
+    /* Enlarge main element to push footer down */
+    flex: 1 0 auto;
+    display: flex;
+}
 
 /* Footer */
 #social-media {
@@ -26,11 +33,21 @@ header {
     justify-content: space-evenly;
     list-style-type: none;
     background-color: rgb(244, 244, 244);
-    opacity: calc(0.6);
+    opacity: calc(0.7);
+    box-shadow: 10px 10px 10px 10px;
+    border-radius:10px ;
 }
 
 #social-media i {
     font-size: 200%;
     padding: 11%;
     color: rgb(21, 128, 236);
+}
+
+/* FAQ */
+#faq {
+    background-color: aliceblue;
+    opacity:calc(0.7) ;
+    box-shadow: 10px 10px 10px 10px;
+    border-radius:10px ;
 }
