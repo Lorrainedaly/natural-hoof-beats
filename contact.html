@@ -34,8 +34,9 @@
     <main>
         <section>
             <div>
-                <form action="" id="" class="">
+                <form action="contact-form" id="contact-form" class="contact-form" method="post">
                     <label for="contact reason">Contact Reason</label>
+                    <br>
                     <select name="contact reason" id="contact reason">
                         <option value="query">General Query</option>
                         <option value="book a trim">Book a trim</option>
@@ -45,15 +46,19 @@
                     </select>
                         <br>
                      <label for="name" class="">Your Name</label>
+                    <br>
                      <input type="text" id="name" name="fullname" required>
                       <br>
                      <label for="email">Your email address</label>
+                     <br>
                      <input type="email" name="email" id="email" required>
                       <br>
                      <label for="query">Your Query</label>
+                     <br>
                      <textarea name="query" id="query" cols="22" rows="7" ></textarea>
                     <br>
                      <label for="newsletter">Join our newsletter</label>
+                     <br>
                      <input type="checkbox" id="newsletter" value="newletter" name="newsletter">
                        <br>
                      <button type="submit">Send</button>
